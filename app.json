@@ -1,0 +1,79 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/maps/maps",
+    "pages/user/user",
+    "custom-tab-bar/index",
+    "pages/appPage/appPage",
+    "pages/curriculum/curriculum",
+    "pages/gradeQuery/gradeQuery",
+    "pages/studentDetail/studentDetail",
+    "pages/calendar/calendar",
+    "pages/scheduleTime/scheduleTime",
+    "pages/departmentPhone/departmentPhone",
+    "pages/clubInfo/clubInfo",
+    "pages/freshmanGuide/freshmanGuide",
+    "pages/whatToEat/whatToEat",
+    "pages/about/about",
+    "pages/profile/profile",
+    "pages/settings/settings",
+    "pages/analysis/analysis",
+    "pages/reading/reading",
+    "pages/more/more"
+  ],
+  
+  "tabBar": {
+    "custom": true,
+    "color": "#a5b5b5",
+    "selectedColor": "#22cd5e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/icon/sy1.png",
+        "selectedIconPath": "/static/icon/sy2.png"
+      },
+      {
+        "pagePath": "pages/maps/maps",
+        "text": "校园地图",
+        "iconPath": "/static/icon/dt2.png",
+        "selectedIconPath": "/static/icon/dt1.png"
+      },
+      {
+        "pagePath": "pages/appPage/appPage",
+        "text": "工具",
+        "iconPath": "/static/icon/sy1.png",
+        "selectedIconPath": "/static/icon/sy2.png"
+      },
+      {
+        "pagePath": "pages/curriculum/curriculum",
+        "text": "课程表",
+        "iconPath": "/static/icon/kb1.png",
+        "selectedIconPath": "/static/icon/kb2.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "/static/icon/wd1.png",
+        "selectedIconPath": "/static/icon/wd2.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "mp-html": "/miniprogram_npm/miniprogram_npm/mp-html/index",
+    "van-popup": "@vant/weapp/popup/index",
+    "van-button": "@vant/weapp/button/index",
+    "van-grid": "@vant/weapp/grid/index",
+    "van-grid-item": "@vant/weapp/grid-item/index",
+    "van-cell": "@vant/weapp/cell/index",
+    "van-cell-group": "@vant/weapp/cell-group/index",
+    "van-icon": "@vant/weapp/icon/index",
+    "van-card": "@vant/weapp/card/index",
+    "van-toast": "@vant/weapp/toast/index",
+    "van-dialog": "@vant/weapp/dialog/index"
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
